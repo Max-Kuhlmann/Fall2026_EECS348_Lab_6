@@ -12,7 +12,7 @@ echo "$input" | grep -oP '\bbo\w*ng\b'
 
 # Question 2: Match any word in the input string that is at least seven letters long.
 echo "Question 2:"
-echo "$input" | grep -oP ''
+echo "$input" | grep -oP '\b\w{7,}\b'
 
 # Question 3: Count the total number of words in the input string.
 echo "Question 3:"
