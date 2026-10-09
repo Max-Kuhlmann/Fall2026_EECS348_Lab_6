@@ -72,4 +72,4 @@ grep -E 'Person\b' Emails.txt | sed -E 's/ImportantPerson|OtherPerson/Others/g'
 
 # Question 15 (awk): Print all emails' themes (such as 'Can you help me on this?' in the first line of Emails.txt)
 echo "Question 15:"
-grep -E '' Emails.txt | awk ''
+grep -E '^EMAIL' Emails.txt | awk '{split($0, a, ","); print a[2]}'
