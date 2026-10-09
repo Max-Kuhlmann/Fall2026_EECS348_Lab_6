@@ -36,7 +36,7 @@ grep -E '^EMAIL Boss' Emails.txt
 
 # Question 7: Filter the emails sent on 2025
 echo "Question 7:"
-grep -E '' Emails.txt
+grep -E '\b2025\b$' Emails.txt
 
 # Question 8: Filter the emails sent on December 2024
 echo "Question 8:"
