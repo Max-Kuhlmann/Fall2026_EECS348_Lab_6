@@ -44,7 +44,7 @@ grep -E '\b12-[0-9]{2}-2024$' Emails.txt
 
 # Question 9: Filter the emails whose theme is "Important", excluding the replies.
 echo "Question 9:"
-grep -E '' Emails.txt
+grep -E '\b,Important\b' Emails.txt
 
 # Question 10: Filter the emails that are the Boss’s replies (i.e., subjects starting with "Re:").
 echo "Question 10:"
