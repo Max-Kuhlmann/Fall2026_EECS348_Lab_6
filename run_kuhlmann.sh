@@ -24,7 +24,7 @@ echo "$input" | grep -oP '\b\w+\b' | wc -w
 
 # # Question 4: Filter the lines with the Email contents
 echo "Question 4:"
-grep -E '' Emails.txt
+grep -E '^EMAIL' Emails.txt
 
 # Question 5: Filter the lines with the commands (COUNT/NEXT/READ)
 echo "Question 5:"
