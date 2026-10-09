@@ -28,7 +28,7 @@ grep -E '^EMAIL' Emails.txt
 
 # Question 5: Filter the lines with the commands (COUNT/NEXT/READ)
 echo "Question 5:"
-grep -E '' Emails.txt
+grep -E '^(COUNT|NEXT|READ)' Emails.txt
 
 # Question 6: Filter the emails sent by "Boss"
 echo "Question 6:"
