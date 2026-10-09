@@ -32,7 +32,7 @@ grep -E '^(COUNT|NEXT|READ)' Emails.txt
 
 # Question 6: Filter the emails sent by "Boss"
 echo "Question 6:"
-grep -E '' Emails.txt
+grep -E '^EMAIL Boss' Emails.txt
 
 # Question 7: Filter the emails sent on 2025
 echo "Question 7:"
