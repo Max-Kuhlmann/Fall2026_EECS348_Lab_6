@@ -48,7 +48,7 @@ grep -E '\b,Important\b' Emails.txt
 
 # Question 10: Filter the emails that are the Boss’s replies (i.e., subjects starting with "Re:").
 echo "Question 10:"
-grep -E '' Emails.txt
+grep -E '^EMAIL Boss,Re:' Emails.txt
 
 # Question 11: Filter the emails whose sender ends with "Person" (i.e., "ImportantPerson", "OtherPerson").
 echo "Question 11:"
