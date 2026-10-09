@@ -60,7 +60,7 @@ grep -E 'Person\b' Emails.txt
 
 # Question 12 (wc): Count the lines of the emails
 echo "Question 12:"
-grep -E '' Emails.txt | wc
+grep -E '^EMAIL' Emails.txt | wc -l
 
 # Question 13 (tr): Filter the lines with the commands (COUNT/NEXT/READ) and convert them to lowercase (use )
 echo "Question 13:"
