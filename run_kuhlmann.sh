@@ -64,7 +64,7 @@ grep -E '^EMAIL' Emails.txt | wc -l
 
 # Question 13 (tr): Filter the lines with the commands (COUNT/NEXT/READ) and convert them to lowercase (use )
 echo "Question 13:"
-grep -E '' Emails.txt | tr ''
+grep -E '^(COUNT|NEXT|READ)' Emails.txt | tr '[:upper:]' '[:lower:]'
 
 # Question 14 (sed): Replace both "ImportantPerson" and "OtherPerson" with "Others" in the Emails.txt file
 echo "Question 14:"
