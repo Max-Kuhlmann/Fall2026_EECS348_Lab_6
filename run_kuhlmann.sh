@@ -52,7 +52,7 @@ grep -E '^EMAIL Boss,Re:' Emails.txt
 
 # Question 11: Filter the emails whose sender ends with "Person" (i.e., "ImportantPerson", "OtherPerson").
 echo "Question 11:"
-grep -E '' Emails.txt
+grep -E 'Person\b' Emails.txt
 
 # ========================================================
 # === Part 3: Advanced Regular Expression Combinations ===
