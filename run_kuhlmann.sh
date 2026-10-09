@@ -16,7 +16,7 @@ echo "$input" | grep -oP '\b\w{7,}\b'
 
 # Question 3: Count the total number of words in the input string.
 echo "Question 3:"
-echo "$input" | grep -oP '' | wc
+echo "$input" | grep -oP '\b\w+\b' | wc -w
 
 # =============================================================
 # === Part 2: Advanced Regular Expressions for Email Inputs ===
